@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E6E6E6"
+    android:orientation="vertical" >
+
+
+    <LinearLayout
+        android:id="@+id/record_two"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="visible" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="130dp"
+            android:layout_weight="1"
+            android:padding="5dp" >
+
+            <ImageView
+                android:id="@+id/gameimg1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="centerCrop"
+                android:src="@drawable/dragon_age_large" />
+
+            <View
+                android:id="@+id/blankview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shading_selector" />
+
+            <TextView
+                android:id="@+id/timer_tv1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/gameimg1"
+                android:layout_alignLeft="@+id/gameimg1"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:shadowColor="#7F000000"
+                android:shadowDx="2"
+                android:shadowDy="2"
+                android:shadowRadius="2"
+                android:text="TextView"
+                android:textColor="#FFFFFF"
+                android:textSize="11sp" />
+
+            <TextView
+                android:id="@+id/name_tv1"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/timer_tv1"
+                android:layout_alignLeft="@+id/timer_tv1"
+                android:shadowColor="#7F000000"
+                android:shadowDx="2"
+                android:shadowDy="2"
+                android:shadowRadius="2"
+                android:singleLine="true"
+                android:ellipsize="end"
+                android:text="TextView"
+                android:textColor="#FFFFFF"
+                android:textSize="13sp" />
+
+            <ImageButton
+                android:id="@+id/context_but1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/gameimg1"
+                android:layout_alignRight="@+id/gameimg1"
+                android:background="@drawable/ic_card_overflow_small" />
+
+            <ImageView
+                android:id="@+id/platform_iv1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/gameimg1"
+                android:layout_alignTop="@+id/gameimg1"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/ic_platform_wii_wiiu" />
+
+            <View
+                android:id="@+id/context_hit1"
+                android:layout_width="20dp"
+                android:layout_height="30dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="130dp"
+            android:layout_weight="1"
+            android:padding="5dp" >
+
+            <ImageView
+                android:id="@+id/gameimg2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="centerCrop"
+                android:src="@drawable/mariokart" />
+
+            <View
+                android:id="@+id/view2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shading_selector" />
+
+            <TextView
+                android:id="@+id/timer_tv2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/gameimg2"
+                android:layout_alignLeft="@+id/gameimg2"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:shadowColor="#7F000000"
+                android:shadowDx="2"
+                android:shadowDy="2"
+                android:shadowRadius="2"
+                android:text="TextView"
+                android:textColor="#FFFFFF"
+                android:textSize="11sp" />
+
+            <TextView
+                android:id="@+id/name_tv2"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/timer_tv2"
+                android:layout_alignLeft="@+id/timer_tv2"
+                android:ellipsize="end"
+                android:shadowColor="#7F000000"
+                android:shadowDx="2"
+                android:shadowDy="2"
+                android:shadowRadius="2"
+                android:singleLine="true"
+                android:text="TextView"
+                android:textColor="#FFFFFF"
+                android:textSize="13sp"
+				 />
+
+            <ImageButton
+                android:id="@+id/context_but2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignRight="@+id/gameimg2"
+                android:layout_alignTop="@+id/timer_tv2"
+                android:background="@drawable/ic_card_overflow_small" />
+
+            <ImageView
+                android:id="@+id/platform_iv2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/gameimg2"
+                android:layout_alignTop="@+id/gameimg2"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/ic_platform_psx" />
+
+            <View
+                android:id="@+id/context_hit2"
+                android:layout_width="20dp"
+                android:layout_height="30dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/record_one"
+        android:layout_width="fill_parent"
+        android:layout_height="130dp"
+        android:padding="5dp" >
+
+        <ImageView
+            android:id="@+id/gameimg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:src="@drawable/destiny_large" />
+
+        <View
+            android:id="@+id/view3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shading_selector" />
+
+        <TextView
+            android:id="@+id/timer_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/gameimg"
+            android:layout_alignLeft="@+id/gameimg"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:text="TextView"
+            android:textSize="11sp"
+            android:textColor="#FFFFFF"
+            android:shadowColor="#7F000000"
+	        android:shadowDx="2"
+	        android:shadowDy="2"
+	        android:shadowRadius="2" />
+
+        <TextView
+            android:id="@+id/name_tv"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/timer_tv"
+            android:layout_alignLeft="@+id/timer_tv"
+            android:text="TextView"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textColor="#FFFFFF"
+            android:textSize="13sp"
+            android:shadowColor="#7F000000"
+	        android:shadowDx="2"
+	        android:shadowDy="2"
+	        android:shadowRadius="2"  />
+
+        <ImageButton
+            android:id="@+id/context_but"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/gameimg"
+            android:layout_alignTop="@+id/timer_tv"
+            android:background="@drawable/ic_card_overflow_small" />
+
+        <ImageView
+            android:id="@+id/platform_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/gameimg"
+            android:layout_alignTop="@+id/gameimg"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/ic_platform_psx" />
+        <View
+                android:id="@+id/context_hit"
+                android:layout_width="20dp"
+                android:layout_height="30dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="false"
+                android:layout_alignRight="@id/context_but" />
+
+    </RelativeLayout>
+
+</LinearLayout>
+<!-- From: file:/F:/Android%20Studio%20Projects/Zupidoo/zupidoo/src/main/res/layout/gamesrecord_popular.xml -->

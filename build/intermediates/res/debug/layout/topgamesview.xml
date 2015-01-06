@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="185dp"
+    android:background="#E6E6E6" >
+
+    <ImageView
+        android:id="@+id/game_imageview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/finalfantasy" />
+
+    <View
+        android:id="@+id/blankview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shading_selector" />
+		
+	<TextView
+        android:id="@+id/game_name_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/countdown_textview"
+        android:layout_alignParentLeft="true"
+        android:text="Final Fantasy X | X-2"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:layout_marginLeft="15dp"
+        android:shadowColor="#7F000000"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="2" />
+   
+    
+    <TextView
+        android:id="@+id/countdown_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="15dp"
+        android:text="10d 11h 33m 44s"
+        android:textSize="11sp"
+        android:textColor="#FFFFFF"
+        android:layout_alignLeft="@+id/game_name_textview"
+        android:shadowColor="#7F000000"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="2" />
+
+    <ImageView
+        android:id="@+id/platform_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/ic_platform_psx" />
+
+    <ImageView
+        android:id="@+id/fav_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/ic_card_fav" />
+
+
+    
+
+</RelativeLayout>
+<!-- From: file:/F:/Android%20Studio%20Projects/Zupidoo/zupidoo/src/main/res/layout/topgamesview.xml -->
