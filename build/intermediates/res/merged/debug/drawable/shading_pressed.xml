@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+    <solid android:color="#80809980"/>
+
+</shape>
+<!-- From: file:/F:/Android%20Studio%20Projects/Zupidoo/src/main/res/drawable/shading_pressed.xml -->

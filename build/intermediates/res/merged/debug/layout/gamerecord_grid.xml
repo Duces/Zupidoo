@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#E6E6E6"
+    android:padding="5dp" >
+
+            <ImageView
+                android:id="@+id/gameimg"
+                android:layout_width="wrap_content"
+                android:layout_height="130dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/destiny_large"
+                 />
+
+            <View
+                android:id="@+id/blankview"
+                android:layout_width="wrap_content"
+                android:layout_height="130dp"
+                android:background="@drawable/shading_selector" />
+
+            <ImageView
+                android:id="@+id/platform_iv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/ic_platform_psx" />
+
+            <ImageButton
+                android:id="@+id/context_but"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignRight="@+id/gameimg"
+                android:layout_alignTop="@+id/timer_tv"
+                android:background="@drawable/ic_card_overflow_small" />
+
+            <TextView
+                android:id="@+id/timer_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/gameimg"
+                android:layout_alignLeft="@+id/gameimg"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:shadowColor="#7F000000"
+                android:shadowDx="2"
+                android:shadowDy="2"
+                android:shadowRadius="2"
+                android:textColor="#FFFFFF"
+                android:textSize="11sp" />
+
+            <TextView
+                android:id="@+id/name_tv"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/timer_tv"
+                android:layout_alignLeft="@+id/timer_tv"
+                android:ellipsize="end"
+                android:shadowColor="#7F000000"
+                android:shadowDx="2"
+                android:shadowDy="2"
+                android:shadowRadius="2"
+                android:singleLine="true"
+                android:text="TextView"
+                android:textColor="#FFFFFF"
+                android:textSize="13sp" />
+
+            <View
+                android:id="@+id/context_hit"
+                android:layout_width="20dp"
+                android:layout_height="30dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="false"
+                android:layout_alignRight="@id/context_but" />
+
+</RelativeLayout>
+<!-- From: file:/F:/Android%20Studio%20Projects/Zupidoo/src/main/res/layout/gamerecord_grid.xml -->

@@ -59,7 +59,7 @@ MERGED from com.google.android.gms:play-services:6.5.87:21:9
 		ADDED from AndroidManifest.xml:25:13
 	android:value
 		ADDED from AndroidManifest.xml:26:13
-activity#com.duces.zupidoo.MainActivity
+activity#com.duces.zupidoo.Activity.MainActivity
 ADDED from AndroidManifest.xml:27:9
 	android:screenOrientation
 		ADDED from AndroidManifest.xml:30:13
@@ -77,7 +77,7 @@ category#android.intent.category.LAUNCHER
 ADDED from AndroidManifest.xml:34:17
 	android:name
 		ADDED from AndroidManifest.xml:34:27
-activity#com.duces.zupidoo.GameActivity
+activity#com.duces.zupidoo.Activity.GameActivity
 ADDED from AndroidManifest.xml:37:9
 	android:screenOrientation
 		ADDED from AndroidManifest.xml:40:13

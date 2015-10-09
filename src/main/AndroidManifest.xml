@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.duces.zupidoo"
-    android:versionCode="7"
-    android:versionName="1.0.6" >
+    android:versionCode="8"
+    android:versionName="1.1.0" >
     
    <supports-screens android:resizeable="true"
                   android:smallScreens="true"
@@ -25,7 +25,7 @@
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
         <activity
-            android:name="com.duces.zupidoo.MainActivity"
+            android:name=".Activity.MainActivity"
             android:label="@string/app_name" 
             android:screenOrientation="portrait">
             <intent-filter>
@@ -35,10 +35,10 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.duces.zupidoo.GameActivity"
+            android:name=".Activity.GameActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
-            android:parentActivityName="com.duces.zupidoo.MainActivity" >
+            android:parentActivityName=".Activity.MainActivity" >
         </activity>
          <activity
             android:name="com.google.android.gms.ads.AdActivity"

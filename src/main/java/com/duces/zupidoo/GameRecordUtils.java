@@ -14,15 +14,17 @@ import android.content.SharedPreferences.OnSharedPreferenceChangeListener;
 import android.net.Uri;
 import android.os.CountDownTimer;
 import android.preference.PreferenceManager;
-import android.util.Log;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
-import android.widget.ImageButton;
 import android.widget.PopupMenu;
 import android.widget.TextView;
 import android.widget.PopupMenu.OnMenuItemClickListener;
+
+import com.duces.zupidoo.Adapter.GamesGridAdapter;
+import com.duces.zupidoo.Model.GamesCountdown;
+import com.duces.zupidoo.Model.GamesJSON;
 
 public class GameRecordUtils {
 	SharedPreferences prefs;

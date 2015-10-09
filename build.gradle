@@ -1,29 +1,26 @@
-<<<<<<< HEAD
+
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
 buildscript {
     repositories {
-        jcenter()
+        mavenCentral()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:1.0.0'
+        classpath 'com.android.tools.build:gradle:1.3.0'
     }
 }
-
-allprojects {
-    repositories {
-        jcenter()
-    }
-=======
 apply plugin: 'com.android.application'
+repositories {
+    mavenCentral()
+}
 
 android {
-    compileSdkVersion 19
-    buildToolsVersion "21.1.2"
+    compileSdkVersion 23
+    buildToolsVersion "23.0.1"
 
     defaultConfig {
         applicationId "com.duces.zupidoo"
-        minSdkVersion 14
-        targetSdkVersion 19
+        minSdkVersion 10
+        targetSdkVersion 23
     }
 
     buildTypes {
@@ -33,15 +30,24 @@ android {
         }
     }
 }
-
 dependencies {
     compile project(':library')
     compile 'com.google.code.gson:gson:2.3'
-    compile 'com.google.android.gms:play-services:+'
-    compile files('libs/okhttp-1.6.0.jar')
-    compile files('libs/okhttp-urlconnection-1.6.0.jar')
-    compile files('libs/okio-1.0.1.jar')
-    compile files('libs/picasso-2.3.0.jar')
-    compile files('libs/retrofit-1.6.1.jar')
->>>>>>> b79360fd8ff84aa4ea25e56bea5fe544001336df
+    compile 'com.google.android.gms:play-services:8.1.0'
+    compile "com.android.support:appcompat-v7:23.0.1"
+    compile 'com.squareup.okhttp:okhttp:2.5.0'
+    compile 'com.android.support:design:23.0.1'
+
+    compile 'com.squareup.okio:okio:1.6.0'
+    compile 'com.squareup.picasso:picasso:2.5.2'
+    compile 'com.squareup.retrofit:retrofit:1.9.0'
 }
+//allprojects {
+//    repositories {
+//        jcenter()
+//    }
+
+
+
+
+

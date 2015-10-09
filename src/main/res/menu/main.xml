@@ -1,16 +1,17 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context="com.duces.zupidoo.MainActivity" >
+    tools:context="com.duces.zupidoo.Activity.MainActivity"
+    xmlns:app="http://schemas.android.com/apk/res-auto" >
 
     <item
         android:id="@+id/action_search"
-        android:showAsAction="always|collapseActionView"
+        app:showAsAction="always|collapseActionView"
         android:title="@string/action_search"
         android:icon="@drawable/ic_action_search"
-        android:actionViewClass="android.widget.SearchView"/>
+        app:actionViewClass="android.support.v7.widget.SearchView"/>
     <item
         android:id="@+id/action_refresh"
-        android:showAsAction="always"
+        app:showAsAction="always"
         android:title="@string/action_refresh"
         android:icon="@drawable/ic_action_refresh"/>
     
